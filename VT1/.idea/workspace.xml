@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e073037-52ec-428c-bf9b-04a57185e7a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/service/auth/AppLoginModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/service/auth/AppLoginModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/AdminRequestView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/AdminRequestView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/AvailableRoomsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/AvailableRoomsView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/ClientRequestView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/ClientRequestView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/LoginView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/LoginView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/Navigation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/Navigation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/ProfileView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/ProfileView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/RegisterView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VT1/com/github/markmatyushchenko/vt1/view/RegisterView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/service/auth/AppLoginModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/service/auth/AppLoginModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/AdminRequestView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/AdminRequestView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/AvailableRoomsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/AvailableRoomsView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/ClientRequestView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/ClientRequestView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/LoginView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/Navigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/Navigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/ProfileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/ProfileView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/RegisterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/markmatyushchenko/vt1/view/RegisterView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teststorage/requests/requests.csv" beforeDir="false" afterPath="$PROJECT_DIR$/teststorage/requests/requests.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teststorage/users/client.csv" beforeDir="false" afterPath="$PROJECT_DIR$/teststorage/users/client.csv" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1U7a3Cu6ZHUZSKHu7NCITGz0sgZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.markmatyushchenko.vt1.App" />
+      <module name="VT1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.markmatyushchenko.vt1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e073037-52ec-428c-bf9b-04a57185e7a4" name="Default Changelist" comment="" />
+      <created>1574709885131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574709885131</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
