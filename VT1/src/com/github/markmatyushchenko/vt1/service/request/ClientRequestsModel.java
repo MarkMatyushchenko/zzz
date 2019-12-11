@@ -9,9 +9,9 @@ import java.util.Optional;
 
 public interface ClientRequestsModel extends RequestsModel {
 
-	void createRequest(Date arrivalDate, Date departureDate, int numberOfPersons);
+	Optional<Request> createRequest(Date arrivalDate, Date departureDate, int numberOfPersons);
 
-	void cancelRequest(Request request);
+	Optional<Request> cancelRequest(Request request);
 
 	AvailableRoomTypes getSelectedRoomType();
 

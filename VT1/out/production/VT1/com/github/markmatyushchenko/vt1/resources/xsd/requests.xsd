@@ -1,0 +1,66 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+
+>
+
+    <xs:complexType name="xmlRoomType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="typeName"/>
+            <xs:element type="xs:int" name="numOfPlaces"/>
+            <xs:element type="xs:int" name="cost"/>
+            <xs:element type="xs:string" name="smallImage"/>
+            <xs:element name="largeImages">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element type="xs:string" name="image" maxOccurs="unbounded" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element type="xs:double" name="area"/>
+            <xs:element name="roomNumbers">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element type="xs:int" name="number" maxOccurs="unbounded" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="services">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element type="xs:string" name="service" maxOccurs="unbounded" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="xmlClient">
+        <xs:sequence>
+            <xs:element type="xs:string" name="login"/>
+            <xs:element type="xs:string" name="token"/>
+            <xs:element type="xs:string" name="email"/>
+            <xs:element type="xs:string" name="firstName"/>
+            <xs:element type="xs:string" name="lastName"/>
+            <xs:element type="xs:string" name="phoneNumber"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="xmlRequest">
+        <xs:sequence>
+            <xs:element type="xmlRoomType" name="roomType"/>
+            <xs:element type="xs:dateTime" name="arrivalDate"/>
+            <xs:element type="xs:dateTime" name="departureDate"/>
+            <xs:element type="xs:int" name="numberOfPersons"/>
+            <xs:element type="xmlClient" name="customer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="data">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="item" maxOccurs="unbounded" minOccurs="0" type="xmlRequest">
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

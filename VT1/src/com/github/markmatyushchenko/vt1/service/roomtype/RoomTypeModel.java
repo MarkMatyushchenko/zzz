@@ -7,6 +7,4 @@ public interface RoomTypeModel {
 	void addViewModel(RoomTypeViewModel viewModel);
 
 	void getRoomTypesOnPage(int page, boolean useCache);
-
-	void getAvailableServices();
 }

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xmlRequest">
+        <roomType>
+            <typeName>Standard 2x</typeName>
+            <numOfPlaces>2</numOfPlaces>
+            <cost>1000</cost>
+            <smallImage/>
+            <largeImages/>
+            <area>25.0</area>
+            <roomNumbers>
+                <number>100</number>
+                <number>101</number>
+                <number>102</number>
+            </roomNumbers>
+            <services/>
+        </roomType>
+        <arrivalDate>2019-12-10T00:00:00+03:00</arrivalDate>
+        <departureDate>2019-12-15T00:00:00+03:00</departureDate>
+        <numberOfPersons>2</numberOfPersons>
+        <customer>
+            <login>client</login>
+            <token>TestToken</token>
+            <email>test@test.com</email>
+            <firstName>Test</firstName>
+            <lastName>Test</lastName>
+            <phoneNumber></phoneNumber>
+        </customer>
+    </item>
+    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xmlRequest">
+        <roomType>
+            <typeName>Standard 3x</typeName>
+            <numOfPlaces>3</numOfPlaces>
+            <cost>1500</cost>
+            <smallImage/>
+            <largeImages/>
+            <area>35.0</area>
+            <roomNumbers>
+                <number>103</number>
+                <number>104</number>
+                <number>105</number>
+            </roomNumbers>
+            <services/>
+        </roomType>
+        <arrivalDate>2019-11-07T00:00:00+03:00</arrivalDate>
+        <departureDate>2019-11-10T00:00:00+03:00</departureDate>
+        <numberOfPersons>3</numberOfPersons>
+        <customer>
+            <login>client</login>
+            <token>TestToken</token>
+            <email>test@test.com</email>
+            <firstName>Test</firstName>
+            <lastName>Test</lastName>
+            <phoneNumber></phoneNumber>
+        </customer>
+    </item>
+    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xmlRequest">
+        <roomType>
+            <typeName>Economy 1x</typeName>
+            <numOfPlaces>1</numOfPlaces>
+            <cost>300</cost>
+            <smallImage/>
+            <largeImages/>
+            <area>20.0</area>
+            <roomNumbers>
+                <number>200</number>
+                <number>201</number>
+                <number>202</number>
+                <number>203</number>
+                <number>204</number>
+            </roomNumbers>
+            <services/>
+        </roomType>
+        <arrivalDate>2019-11-01T00:00:00+03:00</arrivalDate>
+        <departureDate>2019-11-02T00:00:00+03:00</departureDate>
+        <numberOfPersons>1</numberOfPersons>
+        <customer>
+            <login>client</login>
+            <token>TestToken</token>
+            <email>test@test.com</email>
+            <firstName>Test</firstName>
+            <lastName>Test</lastName>
+            <phoneNumber></phoneNumber>
+        </customer>
+    </item>
+    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xmlRequest">
+        <roomType>
+            <typeName>Lux 2x</typeName>
+            <numOfPlaces>2</numOfPlaces>
+            <cost>2000</cost>
+            <smallImage/>
+            <largeImages/>
+            <area>45.0</area>
+            <roomNumbers>
+                <number>300</number>
+                <number>301</number>
+                <number>302</number>
+            </roomNumbers>
+            <services/>
+        </roomType>
+        <arrivalDate>2020-01-01T00:00:00+03:00</arrivalDate>
+        <departureDate>2020-01-07T00:00:00+03:00</departureDate>
+        <numberOfPersons>2</numberOfPersons>
+        <customer>
+            <login>client</login>
+            <token>TestToken</token>
+            <email>test@test.com</email>
+            <firstName>Test</firstName>
+            <lastName>Test</lastName>
+            <phoneNumber></phoneNumber>
+        </customer>
+    </item>
+    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xmlRequest">
+        <roomType>
+            <typeName>Lux 3x</typeName>
+            <numOfPlaces>3</numOfPlaces>
+            <cost>3000</cost>
+            <smallImage/>
+            <largeImages/>
+            <area>55.0</area>
+            <roomNumbers>
+                <number>400</number>
+                <number>401</number>
+            </roomNumbers>
+            <services/>
+        </roomType>
+        <arrivalDate>2019-12-25T00:00:00+03:00</arrivalDate>
+        <departureDate>2020-01-02T00:00:00+03:00</departureDate>
+        <numberOfPersons>3</numberOfPersons>
+        <customer>
+            <login>client</login>
+            <token>TestToken</token>
+            <email>test@test.com</email>
+            <firstName>Test</firstName>
+            <lastName>Test</lastName>
+            <phoneNumber></phoneNumber>
+        </customer>
+    </item>
+</data>

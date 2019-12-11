@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xmlAdministrator">
+        <login>admin</login>
+        <token>f6fdffe48c908deb0f4c3bd36c032e72</token>
+        <firstName>Admin</firstName>
+        <lastName>Admin</lastName>
+    </item>
+</data>

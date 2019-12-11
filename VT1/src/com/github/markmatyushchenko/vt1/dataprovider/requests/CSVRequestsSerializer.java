@@ -46,7 +46,6 @@ class CSVRequestsSerializer {
 					"additionalInfo", fields.length > 6 ? fields[6] : ""
 			);
 		} catch (ArrayIndexOutOfBoundsException exc) {
-			exc.printStackTrace();
 			return Map.of();
 		}
 	}

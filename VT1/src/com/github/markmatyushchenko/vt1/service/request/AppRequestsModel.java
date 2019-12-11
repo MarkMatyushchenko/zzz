@@ -1,8 +1,8 @@
 package com.github.markmatyushchenko.vt1.service.request;
 
-import com.github.markmatyushchenko.vt1.service.request.port.RequestsViewModel;
 import com.github.markmatyushchenko.vt1.entity.request.Request;
 import com.github.markmatyushchenko.vt1.service.AppService;
+import com.github.markmatyushchenko.vt1.service.request.port.RequestsViewModel;
 import com.github.markmatyushchenko.vt1.service.utils.Pagination;
 import com.github.markmatyushchenko.vt1.utils.Either;
 import com.github.markmatyushchenko.vt1.utils.Pair;
@@ -67,9 +67,9 @@ public class AppRequestsModel implements RequestsModel {
 							allRequests.add(list.get(i));
 						}
 
-						viewModel.setActualRequests(list);
 						viewModel.setPage(pagination.getPage());
 						viewModel.setTotalCount(pagination.getTotalCount());
+						viewModel.setActualRequests(list);
 					}
 				});
 	}

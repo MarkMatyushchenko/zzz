@@ -14,8 +14,6 @@ public interface AvailableRoomsViewModel {
 
 	Optional<AvailableRoomTypesFilter> getFilter();
 
-	void setAvailableServices(List<String> services);
-
 	int getRecordsPerPage();
 
 	AvailableRoomTypes getSelectedRoomType();

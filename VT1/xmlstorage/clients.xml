@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xmlClient">
+        <login>client</login>
+        <token>3677b23baa08f74c28aba07f0cb6554e</token>
+        <firstName>Test</firstName>
+        <lastName>Test</lastName>
+        <email>test@test.com</email>
+        <phoneNumber>(11)1111111</phoneNumber>
+    </item>
+    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xmlClient">
+        <login>client2</login>
+        <token>5637c516a9e510124fa260f6a30e57f5</token>
+        <firstName>Test2</firstName>
+        <lastName>Test2</lastName>
+        <email>test2@test.com</email>
+        <phoneNumber>(22)2222222</phoneNumber>
+    </item>
+</data>

@@ -1,8 +1,8 @@
 package com.github.markmatyushchenko.vt1.service.roomtype;
 
-import com.github.markmatyushchenko.vt1.service.roomtype.port.AvailableRoomsViewModel;
 import com.github.markmatyushchenko.vt1.entity.roomtype.AvailableRoomTypes;
 import com.github.markmatyushchenko.vt1.service.AppService;
+import com.github.markmatyushchenko.vt1.service.roomtype.port.AvailableRoomsViewModel;
 import com.github.markmatyushchenko.vt1.service.utils.Pagination;
 import com.github.markmatyushchenko.vt1.utils.Either;
 import com.github.markmatyushchenko.vt1.utils.Pair;
@@ -40,20 +40,6 @@ public class AppAvailableRoomTypesModel implements AvailableRoomTypesModel {
 	}
 
 	@Override
-	public void getAvailableServices() {
-		appService.getAccountModel().getAccount()
-				.ifPresent(user -> {
-					Either<List<String>, Exception> response =
-							appService.getDataProvider().getAvailableServices(user);
-					if (response.isRight()) {
-						appService.getViewModel().setError(response.getRight().getMessage());
-					} else {
-						viewModel.setAvailableServices(response.getLeft());
-					}
-				});
-	}
-
-	@Override
 	public AvailableRoomTypes getSelectedRoomType() {
 		return viewModel.getSelectedRoomType();
 	}
@@ -86,9 +72,9 @@ public class AppAvailableRoomTypesModel implements AvailableRoomTypesModel {
 							allRoomTypes.add(list.get(i));
 						}
 
-						viewModel.setActualAvailableRoomTypes(list);
 						viewModel.setPage(pagination.getPage());
 						viewModel.setTotalCount(pagination.getTotalCount());
+						viewModel.setActualAvailableRoomTypes(list);
 					}
 				});
 	}

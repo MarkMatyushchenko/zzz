@@ -43,14 +43,18 @@ public class Range<T extends Comparable<T>> {
 	}
 
 	public boolean contains(T value) {
-		if (from == null && to == null) {
-			return true;
-		} else if (from == null) {
-			return value.compareTo(to) <= 0;
-		} else if (to == null) {
-			return value.compareTo(from) >= 0;
+		if (value == null) {
+			return false;
 		} else {
-			return value.compareTo(from) >= 0 && value.compareTo(to) <= 0;
+			if (from == null && to == null) {
+				return true;
+			} else if (from == null) {
+				return value.compareTo(to) <= 0;
+			} else if (to == null) {
+				return value.compareTo(from) >= 0;
+			} else {
+				return value.compareTo(from) >= 0 && value.compareTo(to) <= 0;
+			}
 		}
 	}
 

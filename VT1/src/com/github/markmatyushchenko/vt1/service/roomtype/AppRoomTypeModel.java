@@ -1,8 +1,8 @@
 package com.github.markmatyushchenko.vt1.service.roomtype;
 
-import com.github.markmatyushchenko.vt1.service.roomtype.port.RoomTypeViewModel;
 import com.github.markmatyushchenko.vt1.entity.roomtype.RoomType;
 import com.github.markmatyushchenko.vt1.service.AppService;
+import com.github.markmatyushchenko.vt1.service.roomtype.port.RoomTypeViewModel;
 import com.github.markmatyushchenko.vt1.service.utils.Pagination;
 import com.github.markmatyushchenko.vt1.utils.Either;
 import com.github.markmatyushchenko.vt1.utils.Pair;
@@ -39,20 +39,6 @@ public class AppRoomTypeModel implements RoomTypeModel {
 		viewModel.setPage(page);
 	}
 
-	@Override
-	public void getAvailableServices() {
-		appService.getAccountModel().getAccount()
-				.ifPresent(user -> {
-					Either<List<String>, Exception> response =
-							appService.getDataProvider().getAvailableServices(user);
-					if (response.isRight()) {
-						appService.getViewModel().setError(response.getRight().getMessage());
-					} else {
-						viewModel.setAvailableServices(response.getLeft());
-					}
-				});
-	}
-
 	private void loadRoomTypesOnPage(int page) {
 		appService.getAccountModel().getAccount()
 				.ifPresent(user -> {
@@ -65,7 +51,6 @@ public class AppRoomTypeModel implements RoomTypeModel {
 									appService.getDataProvider().getRoomTypes(user,
 											new Pagination(viewModel.getRecordsPerPage(), page));
 					if (newRoomTypesResponse.isRight()) {
-
 						var exceptionMessage = newRoomTypesResponse.getRight().getMessage();
 						System.out.println(exceptionMessage);
 						appService.getViewModel().setError(exceptionMessage);
@@ -83,10 +68,9 @@ public class AppRoomTypeModel implements RoomTypeModel {
 							allAvailableRoomTypes.add(list.get(i));
 						}
 
-						//System.out.println(list);
-						viewModel.setActualRoomTypes(list);
 						viewModel.setPage(pagination.getPage());
 						viewModel.setTotalCount(pagination.getTotalCount());
+						viewModel.setActualRoomTypes(list);
 					}
 				});
 	}

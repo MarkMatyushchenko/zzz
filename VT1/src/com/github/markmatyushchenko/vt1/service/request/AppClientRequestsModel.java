@@ -26,13 +26,9 @@ public class AppClientRequestsModel extends AppRequestsModel implements ClientRe
 	}
 
 	@Override
-	public void createRequest(Date arrivalDate, Date departureDate, int numberOfPersons) {
-		System.out.println("Create Request: " + getSelectedRoomType());
-		System.out.println(arrivalDate);
-		System.out.println(departureDate);
-		System.out.println(numberOfPersons);
-		appService.getAccountModel().getAccount()
-				.ifPresent(user -> {
+	public Optional<Request> createRequest(Date arrivalDate, Date departureDate, int numberOfPersons) {
+		return appService.getAccountModel().getAccount()
+				.map(user -> {
 					if (appService.getAvailableRoomTypesModel().getSelectedRoomType() != null) {
 						Either<Request, Exception> response = appService
 								.getDataProvider()
@@ -45,22 +41,26 @@ public class AppClientRequestsModel extends AppRequestsModel implements ClientRe
 							appService.getViewModel().setError(response.getRight().getMessage());
 						} else {
 							appService.getViewModel().showInfo("Successfully created");
+							return response.getLeft();
 						}
 					}
+					return null;
 				});
 	}
 
 	@Override
-	public void cancelRequest(Request request) {
-		appService.getAccountModel().getAccount()
-				.ifPresent(user -> {
+	public Optional<Request> cancelRequest(Request request) {
+		return appService.getAccountModel().getAccount()
+				.map(user -> {
 					Optional<Exception> result = appService
 							.getDataProvider()
 							.cancelRequest(user, request);
 					if (result.isPresent()) {
 						appService.getViewModel().setError(result.get().getMessage());
+						return null;
 					} else {
 						appService.getViewModel().showInfo("Successfully canceled");
+						return request;
 					}
 				});
 	}

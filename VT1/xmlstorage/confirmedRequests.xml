@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+    <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xmlConfirmedRequest">
+        <roomType>
+            <typeName>Standard 3x</typeName>
+            <numOfPlaces>3</numOfPlaces>
+            <cost>1500</cost>
+            <smallImage/>
+            <largeImages/>
+            <area>35.0</area>
+            <roomNumbers>
+                <number>103</number>
+                <number>104</number>
+                <number>105</number>
+            </roomNumbers>
+            <services/>
+        </roomType>
+        <arrivalDate>2019-11-25T00:00:00+03:00</arrivalDate>
+        <departureDate>2019-12-05T00:00:00+03:00</departureDate>
+        <numberOfPersons>2</numberOfPersons>
+        <customer>
+            <login>client</login>
+            <token>TestToken</token>
+            <email>test@test.com</email>
+            <firstName>Test</firstName>
+            <lastName>Test</lastName>
+            <phoneNumber></phoneNumber>
+        </customer>
+        <roomNumber>105</roomNumber>
+    </item>
+</data>
